@@ -1,0 +1,333 @@
+@media (max-width: 560px) {
+
+  /* CONTAINER ADICIONAR TAREFA */
+
+  .container {
+    max-width: 400px;
+  }
+
+  #btnAddTarefa {
+    margin-left: 1rem;
+  }
+
+.btnAcao {
+   display: block;
+   margin-top: 0.2rem;
+ }
+
+}
+
+@media (max-width: 510px) {
+
+  /* CONTAINER ADICIONAR TAREFA */
+
+  .container {
+    max-width: 360px;
+  }
+
+}
+
+@media (max-width: 498px) {
+  
+     /* CONTAINER MODIFICAR TAREFA */
+
+    #janelaEdicaoBtnFechar{
+        width: 45px;
+        height: 45px;
+        left: 93%;
+    }
+}
+
+@media (max-width: 485px) {
+  
+     /* CONTAINER MODIFICAR TAREFA */
+
+    #janelaEdicaoBtnFechar{
+        width: 40px;
+        height: 40px;
+        left: 93%;
+    }
+
+    .fa-remove{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 470px) {
+
+  /* CONTAINER ADICIONAR TAREFA */
+
+  .container {
+    max-width: 320px;
+  }
+
+  #btnAddTarefa,
+  #inputNovaTarefa {
+    width: 230px;
+  }
+
+  /* CONTAINER MODIFICAR TAREFA */
+  
+#janelaEdicao{
+    width: 400px;
+}
+
+  #janelaEdicaoBtnFechar{
+    width: 42px;
+    height: 42px;
+    left: 92%;
+}
+
+.fa-remove{
+    font-size: 1.3rem;
+}
+
+}
+
+@media (max-width: 456px){
+
+     /* CONTAINER MODIFICAR TAREFA */
+
+    #janelaEdicao{
+        width: 380px;
+    }
+    
+      #janelaEdicaoBtnFechar{
+        width: 42px;
+        height: 42px;
+        left: 92%;
+    }
+    
+    .fa-remove{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 435px) {
+
+  /* CONTAINER ADICIONAR TAREFA */
+
+  .container {
+    max-width: 300px;
+  }
+
+  #btnAddTarefa,
+  #inputNovaTarefa {
+    width: 213px;
+  }
+
+  #inputNovaTarefa::placeholder {
+    font-size: 1.1rem;
+  }
+
+  /* CONTAINER MODIFICAR TAREFA */
+
+  #janelaEdicao{
+    width: 380px;
+}
+
+  #janelaEdicaoBtnFechar{
+    width: 40px;
+    height: 40px;
+    left: 88%;
+    top: 2%;
+}
+
+.fa-remove{
+    font-size: 1.3rem;
+}
+
+}
+
+@media (max-width: 425px) {
+
+      /* CONTAINER MODIFICAR TAREFA */
+
+      #janelaEdicao{
+        width: 340px;
+    }
+    
+      #janelaEdicaoBtnFechar{
+        width: 40px;
+        height: 40px;
+        left: 88%;
+        top: 2%;
+    }
+    
+    .fa-remove{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 385px) and (max-width: 410px) {
+
+  /* CONTAINER ADICIONAR TAREFA */
+
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .container {
+    max-width: 270px;
+  }
+
+  .topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btnAddTarefa {
+    padding: 15px;
+  }
+
+  #inputNovaTarefa {
+    padding: 12px;
+  }
+
+  #inputNovaTarefa::placeholder {
+    font-size: 1.1rem;
+  }
+
+  li{
+    width: 95%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  /* CONTAINER MODIFICAR TAREFA */
+
+  #janelaEdicao{
+    width: 320px;
+}
+
+  #janelaEdicaoBtnFechar{
+    width: 40px;
+    height: 40px;
+    left: 90%;
+    top: -6%;
+}
+
+.fa-remove{
+    font-size: 1.3rem;
+}
+
+}
+
+@media (min-width: 360px) and (max-width: 384px) {
+
+  /* CONTAINER ADICIONAR TAREFA */
+
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .container {
+    max-width: 235px;
+  }
+
+  .topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btnAddTarefa {
+    padding: 15px;
+  }
+
+  #inputNovaTarefa {
+    padding: 12px;
+  }
+
+  #inputNovaTarefa::placeholder {
+    font-size: 1.1rem;
+  }
+
+  li{
+    width: 110%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* CONTAINER MODIFICAR TAREFA */
+
+  #janelaEdicao{
+    width: 310px;
+}
+
+  #janelaEdicaoBtnFechar{
+    width: 38px;
+    height: 38px;
+    left: 90%;
+    top: -6%;
+}
+
+.fa-remove{
+    font-size: 1.3rem;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+
+  /* CONTAINER ADICIONAR TAREFA */
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    max-width: 200px;
+  }
+
+  .topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btnAddTarefa {
+    padding: 12px;
+  }
+
+  #inputNovaTarefa {
+    padding: 10px;
+  }
+
+  #inputNovaTarefa::placeholder {
+    font-size: 1rem;
+  }
+
+  li{
+    width: 120%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* CONTAINER MODIFICAR TAREFA */
+
+  #janelaEdicao{
+    width: 270px;
+}
+
+  #janelaEdicaoBtnFechar{
+    width: 40px;
+    height: 40px;
+    left: 88%;
+    top: -6%;
+}
+
+.fa-remove{
+    font-size: 1.3rem;
+}
+
+#idTarefaEdicao{
+    font-size: 1.2rem;
+}
+
+}
